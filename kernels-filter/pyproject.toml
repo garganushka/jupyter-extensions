@@ -1,0 +1,10 @@
+[project]
+name = "kernels_filter"
+version = "0.1.0"
+description = "Jupyter extension for filtering Python and Pyspark Kernels"
+requires-python = ">=3.0"
+dependencies = [
+    "jupyter-server>=2.0"
+]
+[project.entry-points."jupyter_server.extensions"]
+kernels_filter = "kernels_filter"
